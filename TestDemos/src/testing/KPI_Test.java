@@ -19,7 +19,7 @@ public class KPI_Test extends AppUtils
 		driver.findElement(By.xpath("//*[@id='Form Container']/div[3]/button[2]")).click();
 		driver.findElement(By.xpath("//div[9]/div[1]/img")).click();
 		driver.findElement(By.xpath("//div[2]/button")).click();
-		/*
+		
 		driver.findElement(By.name("displayName")).sendKeys("KPI_6");
 		driver.findElement(By.id("demo-simple-select-outlined")).click();
 		Thread.sleep(3000);
@@ -62,7 +62,7 @@ public class KPI_Test extends AppUtils
 		driver.findElement(By.name("goalValue")).sendKeys("72");
 		driver.findElement(By.name("metCriteriaPct")).sendKeys("95");
 		driver.findElement(By.name("baselineValue")).sendKeys("NA");
-		*/
+		
 		driver.findElement(By.xpath("//div[8]/div/div/div")).click();
 		Thread.sleep(3000);
 		List<WebElement> dlist4 = driver.findElements(By.xpath("//div[2]/div[3]/ul/li"));
