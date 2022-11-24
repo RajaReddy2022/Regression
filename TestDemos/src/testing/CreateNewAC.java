@@ -46,7 +46,7 @@ public class CreateNewAC extends AppUtils
 			}
 		}
 		Thread.sleep(3000);
-		/*driver.findElement(By.xpath("//input[@type='radio' and @value='company']")).click();
+		driver.findElement(By.xpath("//input[@type='radio' and @value='company']")).click();
 		driver.findElement(By.xpath("//input[@type='checkbox']")).click();
 		driver.findElement(By.xpath("//div[5]/button[2]")).click();
 		Thread.sleep(3000);
@@ -57,7 +57,7 @@ public class CreateNewAC extends AppUtils
 		}else
 		{
 			System.out.println("Fail");
-		}*/
+		}
 		
 	}
 }
