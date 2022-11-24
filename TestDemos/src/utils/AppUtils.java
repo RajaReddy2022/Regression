@@ -11,6 +11,7 @@ public class AppUtils
 {
 	public static WebDriver driver;
 	public static String url = "https://s-preconfig.expflow.in/onboarding/signup";
+	String app = "Raja";
 		
 	@BeforeTest
 	public static void launchApp()
