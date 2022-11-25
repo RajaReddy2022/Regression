@@ -16,7 +16,7 @@ public class testcases extends AppUtils
 	
 	String keywordfile = "D:\\TestData.xlsx";
 	String tcsheet = "TestCases";
-	String tssheet = "TestSteps";	
+	String tssheet = "TestSteps";
 	
 	@Test
 	public void regressionTestcases() throws IOException, InterruptedException
